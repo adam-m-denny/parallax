@@ -1,0 +1,88 @@
+* {
+  padding: 0;
+  margin: 0; }
+
+#wrapper {
+  transform-style: preserve-3d;
+  height: 100%;
+  perspective: 1px;
+  overflow-x: hidden;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  color: #fff;
+  font-family: Montserrat; }
+  #wrapper header {
+    width: 100%;
+    height: 100%;
+    background-color: lightyellow; }
+    #wrapper header nav {
+      height: 40px;
+      width: 100%;
+      position: fixed;
+      top: 0;
+      bottom: 0;
+      left: 0;
+      background-color: #0995B2; }
+      #wrapper header nav ul {
+        width: 1200px;
+        margin: auto; }
+        #wrapper header nav ul li {
+          float: left;
+          width: 25%;
+          text-align: center;
+          line-height: 2em; }
+          #wrapper header nav ul li a {
+            text-decoration: none; }
+  #wrapper section {
+    position: relative;
+    min-height: 100vh;
+    box-sizing: border-box;
+    transform-style: inherit;
+    overflow: hidden; }
+    #wrapper section .back {
+      width: 100%;
+      height: 100%;
+      background-position: center center;
+      transform: translateZ(-2px) scale(3); }
+      #wrapper section .back h2 {
+        font-size: 3em;
+        position: absolute;
+        margin-top: 10%;
+        padding: 10px 0;
+        width: 38.2%;
+        background: #055263;
+        transform: translateZ(0) scale(1); }
+    #wrapper section .fore {
+      max-width: 1200px;
+      height: 38.2%;
+      margin-top: -50%;
+      transform: translateZ(-1px) scale(2);
+      position: relative;
+      z-index: 10;
+      font-size: 1.2em;
+      text-align: center;
+      margin: auto;
+      margin-top: -25%;
+      padding: 40px;
+      /* padding-top: 3%; */
+      box-sizing: border-box; }
+  #wrapper #frame1 .back {
+    background-image: url(../images/life_desktop.jpg); }
+  #wrapper #frame2 .back {
+    background-color: #0995B2; }
+  #wrapper #frame3 .back {
+    background-image: url(../images/TowerDefenseCapture.jpg); }
+  #wrapper #frame4 .back {
+    background-color: #69c8dc; }
+  #wrapper #frame5 .back {
+    background-image: url(../images/map.jpg); }
+  #wrapper #frame6 .back {
+    background-color: #3c4445; }
+  #wrapper #frame7 .back {
+    background-image: url(../images/collab.jpg); }
+  #wrapper #frame8 .back {
+    background-color: #0a0501; }
+
+/*# sourceMappingURL=style.css.map */
